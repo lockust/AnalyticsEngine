@@ -1,0 +1,7 @@
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\bin\Debug\BasicAnalyticsEngine.exe.config
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\bin\Debug\BasicAnalyticsEngine.exe
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\bin\Debug\BasicAnalyticsEngine.pdb
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\obj\Debug\BasicAnalyticsEngine.csprojAssemblyReference.cache
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\obj\Debug\BasicAnalyticsEngine.csproj.CoreCompileInputs.cache
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\obj\Debug\BasicAnalyticsEngine.exe
+C:\Users\paris\source\repos\BasicAnalyticsEngine\BasicAnalyticsEngine\obj\Debug\BasicAnalyticsEngine.pdb
