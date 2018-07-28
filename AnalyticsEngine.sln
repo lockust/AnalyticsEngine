@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAnalyticsEngine", "BasicAnalyticsEngine\BasicAnalyticsEngine.csproj", "{3B52D77C-49DC-43C4-B154-9EF33ED55939}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsEngine", "AnalyticsEngine\AnalyticsEngine.csproj", "{3B52D77C-49DC-43C4-B154-9EF33ED55939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsEngine.Tests", "AnalyticsEngine.Tests\AnalyticsEngine.Tests.csproj", "{D0F5AEF3-A68B-4F5E-A571-772B6F0F2931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3B52D77C-49DC-43C4-B154-9EF33ED55939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B52D77C-49DC-43C4-B154-9EF33ED55939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B52D77C-49DC-43C4-B154-9EF33ED55939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F5AEF3-A68B-4F5E-A571-772B6F0F2931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F5AEF3-A68B-4F5E-A571-772B6F0F2931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F5AEF3-A68B-4F5E-A571-772B6F0F2931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F5AEF3-A68B-4F5E-A571-772B6F0F2931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

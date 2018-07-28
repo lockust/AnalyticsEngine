@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicAnalyticsEngine
+namespace AnalyticsEngine
 {
-    class Frequencies
+    public class Bin
     {
         public int LowerBound{get;set;}
         public int UpperBound { get; set; }
-        public double Freq { get; set; }
+        public int Observations { get; set; }
+        public int PopulationSize { get; set; }
+        public double Frequency { get; set; }
+
     }
 }

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3B52D77C-49DC-43C4-B154-9EF33ED55939}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicAnalyticsEngine</RootNamespace>
-    <AssemblyName>BasicAnalyticsEngine</AssemblyName>
+    <RootNamespace>AnalyticsEngine</RootNamespace>
+    <AssemblyName>AnalyticsEngine</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Analytics.cs" />
-    <Compile Include="Frequencies.cs" />
+    <Compile Include="AnalyticsCalculator.cs" />
+    <Compile Include="Bin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
